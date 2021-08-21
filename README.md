@@ -8,9 +8,9 @@
    *   Selen Gökcan (gokcanselen@gmail.com) 
 
 
-## Our purpose
+## Amacımız
 
-To present an application that finds errors in the spelling of Turkish unified words and recommends their correct use. With this application that we have developed, we aim to eliminate confusion in the spelling of combined words that we often use and rarely use in everyday life. We think that we will make a great contribution to Turkish especially by drawing attention to this issue and bringing a solution.
+Türkçe birleşik kelimelerin yazımında hata bulan ve doğru kullanımını öneren bir uygulama sunmak. Geliştirdiğimiz bu uygulama ile günlük hayatta sıklıkla kullandığımız ve nadiren kullandığımız birleşik kelimelerin yazımındaki karışıklığı ortadan kaldırmayı hedefliyoruz. Özellikle bu konuya dikkat çekerek ve çözüm getirerek Türkçeye büyük katkı sağlayacağımızı düşünüyoruz.
 
 
 # Yöntem 
