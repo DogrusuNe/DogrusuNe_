@@ -1,5 +1,8 @@
 # DogrusuNe
 
+![logo2-removebg-preview (1)](https://user-images.githubusercontent.com/59619952/130329449-6ccb622a-1247-4688-9680-81802eb7c83a.png)
+
+
 ## Takım Üyeleri
 
    *   Havvanur Bozömeroğlu (havvabzmr@gmail.com)
