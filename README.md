@@ -2,10 +2,10 @@
 
 ## Takım Üyeleri
 
-   *   Havvanur Bozömeroğlu 
-   *   Merve Korkut 
-   *   Selin Gökcan 
-   *   Selen Gökcan
+   *   Havvanur Bozömeroğlu (havvabzmr@gmail.com)
+   *   Merve Korkut (korkutt98@gmail.com)
+   *   Selin Gökcan (www.selin.gokcan@gmail.com)
+   *   Selen Gökcan (gokcanselen@gmail.com) 
 
 
 ## Our purpose
