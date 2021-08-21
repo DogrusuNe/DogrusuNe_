@@ -14,9 +14,11 @@ To present an application that finds errors in the spelling of Turkish unified w
 
 
 #Yöntem 
+
 Bu proje boyunca kullandığımız araçlar ve yöntemleri aşağıda bulabilirsiniz.
 
 ##Veri seti
+
 Kulllandığımız veri setine bu linkten erişebilirsiniz:
 https://www.kaggle.com/mahdinamidamirchi/turkish-sentences-dataset
 
