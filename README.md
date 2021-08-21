@@ -2,8 +2,12 @@
 
 ![logo2-removebg-preview (1)](https://user-images.githubusercontent.com/59619952/130329449-6ccb622a-1247-4688-9680-81802eb7c83a.png)
 
+# Amacımız
 
-## Takım Üyeleri
+Türkçe birleşik kelimelerin yazımında hata bulan ve doğru kullanımını öneren bir uygulama sunmak. Geliştirdiğimiz bu uygulama ile günlük hayatta sıklıkla kullandığımız ve nadiren kullandığımız birleşik kelimelerin yazımındaki karışıklığı ortadan kaldırmayı hedefliyoruz. Özellikle bu konuya dikkat çekerek ve çözüm getirerek Türkçeye büyük katkı sağlayacağımızı düşünüyoruz.
+
+
+# Takım Üyeleri
 
    *   Havvanur Bozömeroğlu (havvabzmr@gmail.com)
    *   Merve Korkut (korkutt98@gmail.com)
@@ -11,9 +15,7 @@
    *   Selen Gökcan (gokcanselen@gmail.com) 
 
 
-## Amacımız
 
-Türkçe birleşik kelimelerin yazımında hata bulan ve doğru kullanımını öneren bir uygulama sunmak. Geliştirdiğimiz bu uygulama ile günlük hayatta sıklıkla kullandığımız ve nadiren kullandığımız birleşik kelimelerin yazımındaki karışıklığı ortadan kaldırmayı hedefliyoruz. Özellikle bu konuya dikkat çekerek ve çözüm getirerek Türkçeye büyük katkı sağlayacağımızı düşünüyoruz.
 
 
 # Yöntem 
