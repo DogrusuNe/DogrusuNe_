@@ -1,11 +1,11 @@
-# DogrusuNe_
+# DogrusuNe
 
 ## Takım Üyeleri
 
-Havvanur Bozömeroğlu <br/>
-Merve Korkut <br/>
-Selin Gökcan <br/>
-Selen Gökcan
+   *   Havvanur Bozömeroğlu 
+   *   Merve Korkut 
+   *   Selin Gökcan 
+   *   Selen Gökcan
 
 
 ## Our purpose
