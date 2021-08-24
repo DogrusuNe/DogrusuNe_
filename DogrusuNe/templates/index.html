@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DoğrusuNe</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="NLP,Doğal dil işleme, açık hack, açık kaynak, acikhack2021,computer, developer, game, software, science, blog, Technology, machine" name="description">
+  <meta content="NLP,Doğal dil işleme, açık hack, açık kaynak, acikhack2021,computer, developer, game, software, science, blog, Technology, machine" name="keywords">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../static/css/index.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+ 
+  <link rel="icon" sizes="300x300" href="../static/image/logo.png" type="image/x-icon">
+  <link href="../static/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  
+  <style>
+    body {
+     /* background-image: url('image/pexels-jess-bailey-designs-743986.jpg'); /*Photo by Jess Bailey Designs from Pexels*/
+     /* background-image: url('image/pexels-felix-mittermeier-956999.jpg'); /*Photo by Felix Mittermeier from Pexels*/
+      background-image: url('../static/image/pexels-miguel-á-padriñán-19670.jpg'); /*Photo by Miguel á Padriñán from Pexels*/
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    p, h1, h2, h3, a{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    </style>
+ 
+  
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-static-top bg-dark  bg-opacity-25">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><img src="../static/image/logo.png" alt="DogrusuNe" style="width:70px; "></a>
+      
+
+          </div>
+          <h2>“Türkçem, benim ses bayrağım!”<sub style="font-size: small;">Fazıl Hüsnü Dağlarca</sub></h2>
+          <ul class="nav navbar-nav navbar-right ">
+            <li><a  href="https://github.com/DogrusuNe"><i style=" font-size: 57px;color:black;" id="github" class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+      
+
+
+
+
+
+    <div style="margin-top: 120px;" class="container">
+        
+        
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs nav-justified" role="tablist" id="myTab">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">Metin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">Kelime</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+          </li>
+        </ul>
+      
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="home" class="container tab-pane active"><br>
+            <form method=post action="/predict" >
+            <div class="form-group">
+                <label for="comment">Lütfen metin giriniz.</label>
+                <textarea class="form-control" name = 'text_enter' rows="5"></textarea>
+                
+              </div>
+
+<br>
+              <div style="display: flex; justify-content: center;">
+                <button id="submitButton"   class=" btn-outline-primary btn-lg">Getir</button>
+              </div>
+
+<!--
+              <div style="display: flex; justify-content: center;">
+                <img id="loading" src="../static/image/ezgif.com-gif-maker.gif" style="width:90px;visibility:hidden" alt="DogrusuNe" >
+              </div>
+-->
+           <br>
+              <div class="form-group">
+                
+                <textarea class="form-control" rows="5" id="comment">{{prediction}}</textarea>
+              </div>
+            </form>
+          </div>
+
+
+
+
+
+
+
+          <div id="menu1" class="container tab-pane fade"><br>
+            <form method=post action="/predict2" >
+            <div class="form-group">
+                <label for="usr">Lütfen kelime giriniz.</label>
+                <textarea class="form-control" name = 'text_enter2' rows="2"></textarea>
+                
+              </div>
+
+<br>
+              <div style="display: flex; justify-content: center;">
+                <button id="submitButton"   class=" btn-outline-primary btn-lg">Getir</button>
+              </div>
+
+<!--
+              <div style="display: flex; justify-content: center;">
+                <img id="loading" src="../static/image/ezgif.com-gif-maker.gif" style="width:90px;visibility:hidden" alt="DogrusuNe" >
+              </div>
+-->
+           <br>
+              <div class="form-group">
+                
+                <textarea class="form-control" rows="2" id="comment">{{prediction2}}</textarea>
+              </div>
+        </form>    
+          </div>
+
+
+
+
+
+
+
+
+
+
+          <div id="menu2" class="container tab-pane fade"><br>
+            <h3>Menu 2</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+          </div>
+        </div>
+      </div>
+
+     
+      <button style="cursor: pointer; border: none; position: fixed; bottom: 23px; right: 28px;" type="button" class=" btn btn-link " data-toggle="modal" data-target="#myModal">
+        <i style=" font-size: 57px;color:blue;" id="github" class="fa fa-comments"></i>
+      </button>
+    
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Öneri ve sorularınızı lütfen bize iletin.</h4>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form  action="https://formspree.io/f/xknkpjjv" id="my-form"  role="form" class="php-email-form" method="POST">
+                    
+                
+                    <label>İsim:</label> 
+                    <div class="styled-input wide">
+                      <input type="text" name="name" class="form-control" id="name" required />
+                      
+                    </div>
+              
+                    <label>Email:</label> 
+                      <div class="styled-input">
+                        <input type="email" class="form-control" name="_replyto" id="email" required/>
+                        
+                      </div>
+                      <label>Mesaj:</label>
+                      <div class="styled-input wide">
+                        <textarea class="form-control" name="message"  required></textarea>
+                        
+                      </div>     
+                  </div>
+                
+              
+              
+                  </form>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <div class="modal-footer">
+                    <button   type="submit" name="submit" id="my-form-button" type="submit" class="btn-outline-primary btn-lrg submit-btn">Gönder</button>
+               
+                    
+                 </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+ 
+     <div class="footer" style="margin-top: 5px; position:relative; margin-bottom:5px;">
+        <footer>
+        
+        <p class="copyright">2021 All right reserved. Designed DogrusuNe.</p>
+        </footer>
+    </div>
+
+    <script>
+      function showLoading() {
+	document.getElementById('loading').style.visibility='visible';
+	document.getElementById('submitButton').style.visibility='hidden';
+}
+
+
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+
+        var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        alert("Mesajınız için çok teşekkürler.");
+        form.reset()
+      }).catch(error => {
+        alert("Bir problemle karşılaştık. Lütfen tekrar deneyiniz."); 
+        
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+
+    $('#myTab a').click(function(e) {
+  e.preventDefault();
+  $(this).tab('show');
+});
+
+// store the currently selected tab in the hash value
+$("ul.nav-tabs > li > a").on("shown.bs.tab", function(e) {
+  var id = $(e.target).attr("href").substr(1);
+  window.location.hash = id;
+});
+
+// on load of the page: switch to the currently selected tab
+var hash = window.location.hash;
+$('#myTab a[href="' + hash + '"]').tab('show');
+        </script>
+   
+</body>
+</html> 

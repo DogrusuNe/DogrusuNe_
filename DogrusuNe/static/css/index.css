@@ -1,0 +1,55 @@
+.footer {
+    padding:40px 0;
+    margin-bottom: -10px;
+    color:#e7ebf0;
+    text-align: center;
+  }
+  
+
+  
+  .footer .copyright {
+    margin-top:1px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+  .open-button {
+    
+    opacity: unset;
+    cursor: pointer;
+    border: none;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 25px;
+    background-color: rgb(178, 231, 247);
+  }
+  
+
+  
+  
+  
+ 
+  
+
+  
+ 
