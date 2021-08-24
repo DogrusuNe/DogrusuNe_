@@ -29,8 +29,10 @@ https://www.kaggle.com/mahdinamidamirchi/turkish-sentences-dataset
 
 Veri seti Wikipedia'dan elde eldilen Türkçe kelimelerden oluşmaktadır. Her cümle en fazla 14, en düşük 2 kelimeden oluşur. Cümlelerin içerisinde herhangi bir özel karakter veya kısaltma bulunmuyor. Sürekli güncellenen bir veri setidir. Bizim kullandığımız versiyonda toplam 170458 satırdan oluşur. Yani içerisinde 170458 tane cümle bulundurur.
 
+# Kaynakça
+*https://github.com/Fixy-TR/fixy
+*https://github.com/rounakdatta/CorrectLy
+*https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776
+*https://github.com/brolin59/trnlp
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
