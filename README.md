@@ -95,11 +95,18 @@ Ayrıca oluşturduğumuz küçük çaplı veri setleri bulunuyor.
       
 # Performans Sonuçları
 
-| Bidirectional LSTM                                            |
+## Bidirectional LSTM                                            
 |               | Precision     | Recall        | F1 Score      |
 | ------------- | ------------- | ------------- | ------------- |
 | 0             | 0.9493        | 0.8679        | 0.9068        |
 | 1             | 0.8783        | 0.9536        | 0.9144        |
+
+##   XBGoost                                         
+|               | Precision     | Recall        | F1 Score      |
+| ------------- | ------------- | ------------- | ------------- |
+| 0             | 0.73        | 0.75        | 0.74        |
+| 1             | 0.75        | 0.72        | 0.74        |
+
 
 
 
