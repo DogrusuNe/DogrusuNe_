@@ -29,6 +29,15 @@ https://www.kaggle.com/mahdinamidamirchi/turkish-sentences-dataset
 
 Veri seti Wikipedia'dan elde eldilen Türkçe kelimelerden oluşmaktadır. Her cümle en fazla 14, en düşük 2 kelimeden oluşur. Cümlelerin içerisinde herhangi bir özel karakter veya kısaltma bulunmuyor. Sürekli güncellenen bir veri setidir. Bizim kullandığımız versiyonda toplam 170458 satırdan oluşur. Yani içerisinde 170458 tane cümle bulundurur.
 
+Kullanmasakta oluşturduğumuz küçük çaplı veri setleri bulunuyor.
+* atasözleri.txt --> 2265 tane atasözü barındıran bir txt belgesidir.
+* yaban yakup kadri karaosmanoğlu.txt --> Edebiyatımızda ünlü bir eser olan Yaban kitabının cümlelerinde oluşan bir txt belgesidir. 5169 satırdan oluşmaktadır.
+
+## Sözlükler
+* kelime_sözlüğü.txt -->  Genellikle birleşik ve ayrı yazımında hata yapılan kelimelerden oluşan sözlüktür. 35657 tane satırdan oluşmaktadır.
+* ayrıyazılan.txt  -->  Ayrı yazılması gereken kelimelerden oluşan sözlüktür. 27219 tane satırdan oluşmaktadır.
+* birlesikyazılankelimeler.txt -->  Birleşik yazılması gereken kelimelerden oluşan süzlüktür. 8801 tane kelimeden oluşmaktadır.
+
 # Kaynakça
    * https://github.com/Fixy-TR/fixy
    * https://github.com/rounakdatta/CorrectLy
