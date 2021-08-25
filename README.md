@@ -41,7 +41,7 @@ Ayrıca oluşturduğumuz küçük çaplı veri setleri bulunuyor.
 # Süreç
 ## BiLSTM
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/59619952/130865326-1c88d68e-2811-447a-979a-8dfd207f665a.PNG"/>
+  <img width="500" src="https://user-images.githubusercontent.com/59619952/130865326-1c88d68e-2811-447a-979a-8dfd207f665a.PNG"/>
 </p>
 
 
@@ -49,7 +49,7 @@ Ayrıca oluşturduğumuz küçük çaplı veri setleri bulunuyor.
 
 ## XGBoost
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/59619952/130865045-65970735-735a-4360-bf65-ef697d458cf9.png"/>
+  <img width="500"  src="https://user-images.githubusercontent.com/59619952/130865045-65970735-735a-4360-bf65-ef697d458cf9.png"/>
 </p>
 
 
