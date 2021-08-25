@@ -38,6 +38,13 @@ Ayrıca oluşturduğumuz küçük çaplı veri setleri bulunuyor.
 * ayrıyazılan.txt  -->  Ayrı yazılması gereken kelimelerden oluşan sözlüktür. 27219 tane satırdan oluşmaktadır.
 * birlesikyazılankelimeler.txt -->  Birleşik yazılması gereken kelimelerden oluşan süzlüktür. 8801 tane kelimeden oluşmaktadır.
 
+# Süreç
+## BiLSTM
+![image](https://user-images.githubusercontent.com/59619952/130865065-358f73b4-4f0f-4f84-95bf-c5cc9f8ca838.png)
+
+## XGBoost
+![algoritma](https://user-images.githubusercontent.com/59619952/130865045-65970735-735a-4360-bf65-ef697d458cf9.png)
+
 # Gereklilikler
 
 * Model için  -->  Python 3.6+
