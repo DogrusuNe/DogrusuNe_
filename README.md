@@ -40,7 +40,8 @@ Ayrıca oluşturduğumuz küçük çaplı veri setleri bulunuyor.
 
 # Süreç
 ## BiLSTM
-![image](https://user-images.githubusercontent.com/59619952/130865065-358f73b4-4f0f-4f84-95bf-c5cc9f8ca838.png)
+
+![modelsurec](https://user-images.githubusercontent.com/59619952/130865326-1c88d68e-2811-447a-979a-8dfd207f665a.PNG)
 
 ## XGBoost
 ![algoritma](https://user-images.githubusercontent.com/59619952/130865045-65970735-735a-4360-bf65-ef697d458cf9.png)
