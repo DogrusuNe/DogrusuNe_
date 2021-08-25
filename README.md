@@ -129,6 +129,12 @@ Accuracy: 0.910752193340
 
 Accuracy: 0.73
 
+# DogrusuNe (Flask API)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59619952/130865747-d43f4723-c45f-490b-bbf2-8ad3adfe1db7.PNG"/>
+</p>
+
+
 
 # Kaynakça
    
