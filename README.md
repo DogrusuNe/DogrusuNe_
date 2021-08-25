@@ -94,11 +94,12 @@ Ayrıca oluşturduğumuz küçük çaplı veri setleri bulunuyor.
       import regex
       
 # Performans Sonuçları
-| Bidirectional LSTM|
-|   | Precision | Recall | F1 Score |
-| ------------- | ------------- |
-| 0  | 0.9493  | 0.8679 | 0.9068 |
-| 1  | 0.8783  | 0.9536 | 0.9144  |
+
+| Bidirectional LSTM                                            |
+|               | Precision     | Recall        | F1 Score      |
+| ------------- | ------------- | ------------- | ------------- |
+| 0             | 0.9493        | 0.8679        | 0.9068        |
+| 1             | 0.8783        | 0.9536        | 0.9144        |
 
 
 
