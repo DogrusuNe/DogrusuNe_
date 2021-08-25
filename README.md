@@ -38,7 +38,7 @@ Ayrıca oluşturduğumuz küçük çaplı veri setleri bulunuyor.
 * ayrıyazılan.txt  -->  Ayrı yazılması gereken kelimelerden oluşan sözlüktür. 27219 tane satırdan oluşmaktadır.
 * birlesikyazılankelimeler.txt -->  Birleşik yazılması gereken kelimelerden oluşan süzlüktür. 8801 tane kelimeden oluşmaktadır.
 
-#Gereklilikler
+# Gereklilikler
 
 * Model için  -->  Python 3.6+
 * Web Sitesi için  -->  HTML, CSS, JavaScript, Bootstrap, Flask, Python 3.6+
