@@ -93,12 +93,16 @@ Ayrıca oluşturduğumuz küçük çaplı veri setleri bulunuyor.
       import string
       import regex
       
+# Performans Sonuçları
+| Bidirectional LSTM|
+|   | Precision | Recall | F1 Score |
+| ------------- | ------------- |
+| 0  | 0.9493  | 0.8679 | 0.9068 |
+| 1  | 0.8783  | 0.9536 | 0.9144  |
 
 
 
 # Kaynakça
-   * https://github.com/rounakdatta/CorrectLy
-   * https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776
-   * https://github.com/brolin59/trnlp
+   
 
 
