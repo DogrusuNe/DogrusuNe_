@@ -39,7 +39,6 @@ Ayrıca oluşturduğumuz küçük çaplı veri setleri bulunuyor.
 * birlesikyazılankelimeler.txt -->  Birleşik yazılması gereken kelimelerden oluşan süzlüktür. 8801 tane kelimeden oluşmaktadır.
 
 # Kaynakça
-   * https://github.com/Fixy-TR/fixy
    * https://github.com/rounakdatta/CorrectLy
    * https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776
    * https://github.com/brolin59/trnlp
