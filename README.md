@@ -39,6 +39,16 @@ Ayrıca oluşturduğumuz küçük çaplı veri setleri bulunuyor.
 * birlesikyazılankelimeler.txt -->  Birleşik yazılması gereken kelimelerden oluşan süzlüktür. 8801 tane kelimeden oluşmaktadır.
 
 # Süreç
+Literatürde birleşik ve ayrı yazımları karıştırılan kelimeler hakkında daha önce bir çalışma Türkçe’ de bulunmamaktadır. Bu kelimeler arasında anlamsal olarak yazım şekli değişenler olsada anlamsal olmayanları da sözlüğümüze dahil ettik. Bu şekilde 35657 tane kelime elde ettik. Bu kelimelerin yazımı genellikle karıştırılır ve yanlış kullanımı oldukça fazladır. Modelimizi oluştururken derin öğrenme algoritması olan BiLSTM ve makine öğrenimi algoritmalarından biri olan XGBoost algoritmaları denenmiştir. 
+
+İki modeli denemeden önce ön işleme aşamasında verimizi geçirdik. Bu aşamada birleşik yazılan kelimeleri anlamlı bir şekilde parçaladık. Ardından yazımı karıştırılan sözlüğümdeki bütün kelimelerin aralarında birer boşluk bulunmuş oldu ve bu boşluklara ‘X’ yerleştirildi. Bunun ardında ayrı yazılan kelimelerden biri var ise cümlemizde bu cümle 0, bitişik yazılan kelimelerden biri var ise 1 olarak etiketlemeyi gerçekleştirdik. Modelin doğru bir şekilde öğrenebilmesi için random undersampling ile hata oranı azaltılmış oldu. Oluşturduğumuz bu yeni veri setinden test verisi için %20’lik kısmı, %80’lik kısmı ise modeli eğitmek için kullanıldı.
+
+LSTM’ler uzun vadeli bağımlılık problemini çözmek için tasarlanan özel bir RNN türüdür (Hochreiter & Schmidhuber, 1997). Bilgiyi uzun süre hatırlama davranışı sergilerler. LSTM'ler tüm tekrarlayan sinir ağları gibi bir sinir ağının tekrar eden hücrelerine sahiptir, fakat tekrar eden hücre tek bir sinir ağı kapısına sahip olmak yerine, etkileşime giren 3 adet kapıya sahiptir(Graves & Schmidhuberab, 2005). BiLSTM'de tek bir modeli eğitmek yerine iki modeli eğitiyoruz. İlk model sağlanan girdinin sırasını öğrenir ve ikinci model bu sıranın tersini öğrenir.
+
+Doğruluğu yüksek bir topluluk öğrenme modeli geliştirmek için ilk seviyede farklı tahminleme yöntemlerine sahip olan lojistik regresyon, extra ağaçlar, destek vektör makinesi algoritmaları kullanılmıştır. İkinci seviyede ise ağırlıklandırma yaparak birkaç modelin ortalamasıyla hatalı tahminlemeyi en aza indiren yükseltme algoritmalarından XGBoosting kullanılmıştır. İlk seviyede kullanılan algoritmalar ikinci seviyenin girdilerini oluşturarak performansı artırmaktadır.
+Bu iki modelden en iyi performansı veren BiLSTM algoritmasıdır. Modelimizi bu algoritmayla oluşturduk. Ayrıca bu modeli web sitemizin arka planında kullandık.
+
+
 ## BiLSTM
 <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/59619952/130865326-1c88d68e-2811-447a-979a-8dfd207f665a.PNG"/>
