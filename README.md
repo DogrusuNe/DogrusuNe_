@@ -145,7 +145,10 @@ Accuracy: 0.73
 </p>
 
 
-
+# Kaynakça
+* Babüroğlu, Barış & Tekerek, Adem & Tekerek, Mehmet. (2019). Development of Deep Learning Based Natural Language Processing Model for Turkish. 
+* Çürük, Yasemin. (2019). BİRLEŞİK SÖZCÜK MÜ ÖBEK Mİ?. 23. 255-2981. 
+* Karacaoğlu, Mehmet Önder. (2010). BİRLEŞİK KELİMELERİN YAZIMI Yüksek Lisans Tezi. 
 
    
 
